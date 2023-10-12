@@ -110,7 +110,7 @@ def generate_system(values, start, phase_diff):
 
 if __name__ == '__main__':
     screen_size = np.array([2000, 1000])
-    txt_file = np.loadtxt('c.txt', delimiter=',', dtype=int)
+    txt_file = np.loadtxt('signal.txt', delimiter=',', dtype=int)
     # You may need to modify x and y signals
     x_signal = txt_file[:, 0] - 200
     y_signal = txt_file[:, 1]
